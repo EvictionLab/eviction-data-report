@@ -203,8 +203,8 @@ export default {
     return {
       geos: [ 'states', 'counties', 'cities', 'tracts', 'block-groups' ],
       data_buckets: {
-        staging: 'http://localhost:8080/data',
-        production: 'http://localhost:8080/data'
+        staging: 'https://s3.amazonaws.com/eviction-lab-validation/staging',
+        production: 'https://s3.amazonaws.com/eviction-lab-validation/production'
       },
       missing_geoids: {
         staging: [],

@@ -1,6 +1,6 @@
 # Eviction Lab Data Validation Reports
 
-Data reports for Eviction Lab data generation
+This repository contains front end code to produce data reports for Eviction Lab data generation.  Validation data is generated in various steps through the ETL pipeline and uploaded to S3.  
 
 ## Build Setup
 
